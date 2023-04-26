@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Compilator</title>
-    <link rel="stylesheet" href="cssRegistrarse/styles.css">
+    <link rel="stylesheet" href="../mainCss/styles.css">
 </head>
 <body>
     
@@ -18,21 +18,21 @@
         </nav>
     </header>
 
-    <div class="registroInicio">
-        <article class="articleInicio">
+    <div class="container-registro">
+        <article class="article-registro-inicio">
             <i class="fa-solid fa-chevron-left"></i>
             <p>Registro de Usuario</p>
             <i class="fa-solid fa-chevron-right"></i>
         </article>
-        <article class="sectionInicio">
-            <form action="" class="formulario">
-                <div class="nombre"><p>Nombre</p><input type="text" class="box"></div>
-                <div class="apellido"><p>Apellido</p><input type="text" class="box"></div>
-                <div class="correo"><p>Correo</p><input type="text" class="box"></div>
-                <div class="contra"><p>Contraseña</p><input type="password" class="box"></div>
-                <div class="repetirContra"><p>V. Contraseña</p><input type="password" class="box"></div>
-                <div class="pregunta"><p>Seleccionar pregunta de seguridad</p></div>
-                <div class="seleccionarPregunta">
+        <article class="section-formulario-registro">
+            <form action="" class="formulario-registro">
+                <div class="nombre-registro"><p>Nombre</p><input type="text" class="box"></div>
+                <div class="apellido-registro"><p>Apellido</p><input type="text" class="box"></div>
+                <div class="correo-registro"><p>Correo</p><input type="text" class="box"></div>
+                <div class="password-registro"><p>Contraseña</p><input type="password" class="box"></div>
+                <div class="repetir-password-registro"><p>V. Contraseña</p><input type="password" class="box"></div>
+                <div class="pregunta-registro"><p>Seleccionar pregunta de seguridad</p></div>
+                <div class="seleccionar-pregunta-registro">
                     <select name="preguntas">
                         <option selected disabled>Selecciona una pregunta</option>
                         <option value="1">¿Mascota favorita?</option>
@@ -40,11 +40,11 @@
                         <option value="3">¿Color favorito?</option>
                     </select>
                 </div>
-                <div class="respuesta"><p>Respuesta</p></div>
-                <div class="escribirRespuesta"><input type="text" class="box"></div>
-                <div class="contenedorBoton">
-                    <input class="botonLimpiar" type="reset" name="limpiar" value="Limpiar">
-                    <input class="botonRegistrar" type="submit" name="registrar" value="Registrar">
+                <div class="respuesta-registro"><p>Respuesta</p></div>
+                <div class="escribir-respuesta-registro"><input type="text" class="box"></div>
+                <div class="contenedor-botones-formulario">
+                    <input class="boton-limpiar-registro" type="reset" name="limpiar" value="Limpiar">
+                    <input class="boton-registrar-user" type="submit" name="registrar" value="Registrar">
                 </div>
                 <a href="../inicioSesion/index.html" class="recuperarContra">Ya tengo una cuenta bobis jeje</a>
             </form>
@@ -52,21 +52,22 @@
     </div>
 
     <footer class="footer">
-        <div class="contenedor">
-            <p class="tituloSeccion">¡Siguenos!</p>
+        <div class="contenedor-footer">
+            <p class="titulo-section">¡Siguenos!</p>
         </div>
-        <div class="redesSociales">
-            <a href="" class="boton">
+        <div class="redes-sociales">
+            <a href="" class="boton-redes-sociales">
                 <i class="fa-brands fa-facebook-f"></i>
             </a>
-            <a href="" class="boton">
+            <a href="" class="boton-redes-sociales">
                 <i class="fa-brands fa-instagram"></i>
             </a>
-            <a href="" class="boton">
+            <a href="" class="boton-redes-sociales">
                 <i class="fa-brands fa-twitter"></i>
             </a>
         </div>
     </footer>
     <script src="https://kit.fontawesome.com/c8a64a31fc.js" crossorigin="anonymous"></script>
+    <script src="../mainJs/code.js"></script>
 </body>
 </html>
