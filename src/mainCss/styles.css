@@ -1214,7 +1214,140 @@ body{
 
 /* gestion de archivos */
 
+.hola-user{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 25vh;
+    margin-left: 4%;
+    padding: 20px 20px;
+    font-size: 30px;
+}
 
+.hola-user i{
+    padding: 0 20px;
+}
+
+.container-gestor{
+    display: flex;
+    width: 100%;
+    height: 140vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gestor-section-uno{
+    display: flex;
+    width: 100%;
+    height: 15vh;
+}
+
+.buscar-archivos-gestor,  .crear-carpetas-gestor{
+    flex-basis: 50%;
+    padding: 10px;
+}
+
+.buscar-archivos-gestor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.buscar-archivos-gestor p{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 20%;
+}
+
+.buscar-archivos-gestor i{
+    padding: 0 10px;
+}
+
+.buscar-archivos-gestor input{
+    width: 55%;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: rgb(225,225,225,0.7);
+}
+
+.crear-carpetas-gestor{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 30px;
+}
+
+.container-gestor .gestor-section-uno .crear-carpetas-gestor input{
+    width: 40%;
+    height: 55px;
+    font-size: 17px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #E20053;
+    margin-right: 10%;
+    transition: .2s;
+}
+
+
+.gestor-section-uno .boton-crear-carpeta-gestor:hover{
+    box-shadow: 0 0 10px #E20053, 0 0 20px #E20053 , 0 0 40px #E20053;
+    transition-delay: 1s;
+}
+
+.gestor-section-dos{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 110vh;
+    padding: 20px;
+}
+
+.gestor-section-dos iframe{
+    padding: 0 30px;
+    width: 95%;
+    height: 100%;
+    background: #1f1f1f;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.gestor-section-tres{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 30px;
+    width: 100%;
+    height: 20vh;
+}
+
+.container-gestor .gestor-section-tres input{
+    width: 40%;
+    height: 55px;
+    font-size: 17px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #E20053;
+    margin-right: 10%;
+    transition: .2s;
+}
+
+.boton-crear-archivo-gestor:hover{
+    box-shadow: 0 0 10px #E20053, 0 0 20px #E20053 , 0 0 40px #E20053;
+    transition-delay: 1s;
+}
 
 /* footer */
 
