@@ -59,6 +59,7 @@ body{
 
 .articleInicio p{
     font-size: 25px;
+    text-align: center;
 }
 
 .articleInicio i{
@@ -74,7 +75,7 @@ body{
     background-color: rgb(76,0,125,0.45);
     position: relative;
     width: 80vh;
-    height: 25vh;
+    height: 35vh;
     border-radius: 35px;
     overflow: hidden;
     box-shadow: 0 0 10px #5F0093, 0 0 20px #5F0093 , 0 0 40px #5F0093;
@@ -85,7 +86,7 @@ body{
     height: 75%;
 }
 
-.sectionInicio .correo{
+.sectionInicio .contra{
     color: #fff;
     display: flex;
     align-items: center;
@@ -94,7 +95,29 @@ body{
     padding: 10px 15px;
 }
 
-.sectionInicio .correo input{
+.sectionInicio .contra input{
+    width: 275px;
+    height: 38px;
+    border: none;
+    outline: none;
+    border-radius: 28px;
+    background-color: rgb(255,255,255,0.15);
+    font-size: 14px;
+    color: #fff;
+    padding: 0 15px 0 15px;
+    text-align: center;
+}
+
+.sectionInicio .nuevaContra{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+.sectionInicio .nuevaContra input{
     width: 275px;
     height: 38px;
     border: none;
